@@ -126,6 +126,7 @@ private final class TweakDiskPersistency {
 
 		init(cache: TweakCache) {
 			self.cache = cache
+            super.init()
 		}
 
 		@objc convenience init?(coder aDecoder: NSCoder) {
